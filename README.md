@@ -26,3 +26,27 @@ Use the following GraphQL endpoint for the queries.
 - `character-id-3-output.json`: Expected output for ID 3.
 - `character-id-4.graphql`: Query for character with ID 4.
 - `character-id-4-output.json`: Expected output for ID 4.
+# Get a List of All Characters (Paginated)
+
+This task retrieves a paginated list of characters using the `characters(page: Int)` field in the GraphQL API.
+
+## Files
+
+- `characters-page-1.graphql` - Query to fetch page 1 of characters.
+- `characters-page-1-output.json` - Output of the query for page 1.
+- `characters-page-2.graphql` - Query to fetch page 2 of characters.
+- `characters-page-2-output.json` - Output of the query for page 2.
+- `characters-page-3.graphql` - Query to fetch page 3 of characters.
+- `characters-page-3-output.json` - Output of the query for page 3.
+- `characters-page-4.graphql` - Query to fetch page 4 of characters.
+- `characters-page-4-output.json` - Output of the query for page 4.
+
+## Instructions
+
+1. Run each query in a GraphQL client.
+2. Save the JSON response in the corresponding output file.
+3. Ensure each query retrieves the following fields:
+   - `id`
+   - `name`
+   - `status`
+   - `image`
